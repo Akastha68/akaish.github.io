@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="en">
+<head>
+ <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=0.5">
+<title>Sonu♥️Sanju</title>
+<link rel="icon" href="https://akashk.unaux.com/lotus1.png" type="image/png">
+	<meta name="description" content="Happy Second Anniversary">
+	<meta name="keywords" content="anniversary, wedding, couple">
+	<meta name="author" content="Akash Patel">
+	<meta name="theme-color" content="#000">
+	<meta name="robots" content="index, follow">
+	<meta name="googlebot" content="index, follow">
+	<meta property="og:title" content="Happy Second Anniversary">
+	<meta property="og:description" content="Happy Second Anniversary">
+	<meta property="og:image" content="https://akashk.unaux.com/lotus1.png">
+	<meta property="og:url" content="https://akashk.unaux.com">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Happy Second Anniversary">
+	<meta name="twitter:description" content="Happy Second Anniversary.">
+	<meta name="twitter:image" content="https://akashk.unaux.com/lotus1.png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <canvas id="hearts-canvas"></canvas><header>
+    <h1>Happy Second Anniversary, Sonu♥️Sanju</h1>
+</header>
+
+<main>
+    <section class="anniversary-message">
+        <img src="image/couple-photo.jpg" alt="Couple's Photo">
+        <p class="fade-in"><b><q>Happy second anniversary to the most wonderful couple! May your love continue to grow stronger with each passing year. Here’s to many more years of happiness and love!</q></b></p>
+    </section>
+
+    <section class="quote-slider" id="quote-slider">
+        <q>Love is not about how many days, months, or years you’ve been together. Love is about how much you love each other every single day.</q>
+    </section>
+
+    <section class="audio-player">
+        <audio id="bg-music" src="music/song.mp3" type="audio/mpeg" preload="auto"></audio>
+    </section>
+
+    <section class="interactive-elements">
+        <div class="gallery">
+            <img loading="lazy" src="image/1.jpg" alt="Photo 1">
+            <img loading="lazy" src="image/2.jpg" alt="Photo 2">
+            <img loading="lazy" src="image/3.jpg" alt="Photo 3">
+            <img loading="lazy" src="image/4.jpg" alt="gallery-pic">
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p class="author">Created with ♥️ by Akash Patel</p>
+    <div class="footer">
+        <img loading="lazy" src="/lotus1.png">
+        <h2>Akash Patel</h2>
+        <h4>Cybersecurity Analyst</h4>
+        <h1><b><q>आप दोनों का रिश्ता हमारे लिए प्रेरणा है,<br> छोटा भाई हमेशा आपके साथ है, हर खुशी में। ♥️♥️</q></b></h1>
+        <pre>[Page Created at 02:28 hrs]
+ [By Shadow Coder {Akash Patel} ]</pre>
+    </div>
+</footer>
+    <script src="script/music.js">
+     // Play only on first click
+</script>
+<script src="script/qoute.js">
+</script>
+<script>
+    // Quote Slider
+    const quotes = [
+        "<q>Love is not about how many days, months, or years you’ve been together. Love is about how much you love each other every single day.</q>",
+        "<q>A successful marriage requires falling in love many times, always with the same person.<q>",
+        "<q>You are my today and all of my tomorrows.</q>",
+        "<q>I love you not only for what you are, but for what I am when I am with you.<\q>",
+        "<q>The best thing to hold onto in life is each other.</q>"
+    ];
+    let quoteIndex = 0;
+    setInterval(() => {
+        quoteIndex = (quoteIndex + 1) % quotes.length;
+        document.getElementById('quote-slider').innerHTML = quotes[quoteIndex];
+    }, 5000);
+</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script
+src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="script/script.js">
+</script>
+</body>
+</html>
