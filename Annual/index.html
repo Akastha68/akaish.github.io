@@ -31,6 +31,39 @@
   AOS.init();
 </script>
 <link rel="stylesheet" href="css/styles.css">
+<style>
+body {
+  background: #0e0e0e;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.social-icons {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 32px;
+  color: #ccc;
+  transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.3);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
+/* Platform-specific glow colors */
+.social-icons a:nth-child(1):hover { color: #6e5494; text-shadow: 0 0 10px #6e5494; }   /* GitHub */
+.social-icons a:nth-child(2):hover { color: #0077B5; text-shadow: 0 0 10px #0077B5; }   /* LinkedIn */
+.social-icons a:nth-child(3):hover { color: #E1306C; text-shadow: 0 0 10px #E1306C; }   /* Instagram */
+.social-icons a:nth-child(4):hover { color: #0088cc; text-shadow: 0 0 10px #0088cc; }   /* Telegram */
+</style>
 </head>
 <body>
     <div id="particles-js"></div>
